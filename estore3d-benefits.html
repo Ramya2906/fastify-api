@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Questrial&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="icon" type="image/png" href="images/VisCommerce_Logo.webp" />
+
+    <link href="https://vjs.zencdn.net/7.11.4/video-js.css" rel="stylesheet" />
+    <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.5.0/Youtube.min.js"
+        integrity="sha512-TSROlXxLmYYjsaqBfty065px89Fsv7pXi9CdDcpEzawnMAkTywhyojdVT8+xcYRb5zJN+Ixm06ziGf81Q+mqhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>VisCommerce</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" />
+        <link href="assets/css/popup.css" rel="stylesheet">
+    <style>
+
+        #first {
+            background-image: linear-gradient(rgb(247, 49, 49), white);
+            color: white;
+            padding: 40px;
+        }
+
+        #fourth {
+            padding: 40px;
+        }
+
+        @media screen and (min-width: 768px) {
+            .viscom-video {
+                margin-left: 5%;
+            }
+
+        }
+
+        @media screen and (width: 600px) {
+
+            #vid2 {
+                width: 500px;
+                height: 300px;
+            }
+        }
+
+        @media screen and (width: 768px) {
+
+            #vid1 {
+                margin-top: 40%;
+                width: 300px;
+                height: 175px;
+            }
+        }
+
+        @media screen and (width: 1024px) {
+
+            #vid1 {
+                margin-top: 15%;
+                width: 440px;
+                height: 250px;
+            }
+        }
+
+        @media screen and (width: 1920px) {
+
+            #vid1 {
+                margin-left: 20%;
+            }
+
+        }
+
+        .box1 {
+            background: linear-gradient(rgb(231, 95, 95), #fff);
+        }
+
+        
+
+        
+
+        @media screen and (min-width: 1000px) {
+            #drmtext h4, #drmtext p{
+                margin-left: 35%;
+            }
+
+            #drm img{
+                margin-right: 20%;
+            }
+        }
+
+        #reduce,#happy,#grow{
+            padding-left: 50px;
+        }
+
+  ul li:before {
+  content: '✓';
+  color: #f68d2e;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 10px;
+  list-style: none;
+}
+ li{
+  color: rgba(70,69,69,1);
+  font-size: 18px;
+  font-family: 'Nunito';
+  list-style: none;
+}
+        
+    ul{
+         list-style: none;
+     }   
+        
+    </style>
+</head>
+
+<body id="page-top">
+
+    <!-- NAVBAR -->
+
+    <div id="wrapper">
+
+       <nav class="navbar navbar-expand-lg sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/images_logos_legacy/VisCommerce_Logo.svg" alt="" width="35" height="35"
+                        class="d-inline-block align-top">
+                    <span class="title">VisCommerce</span>
+                </a>
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#topNavbarLinks" aria-controls="topNavbarLinks" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse py-4 py-lg-0" id="topNavbarLinks">
+                    <div class="nav navbar-nav ms-auto align-items-center">
+                        <a class="nav-link" href="index.html#usv">Concept</a>
+                        <a class="nav-link" href="index.html#blur">Benefits</a>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border: none; background: none;">
+                                Solutions
+                            </button>
+                            <ul class="dropdown-menu mb-2" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="estore3d-product.html">eStore3D</a></li>
+                                <li><a class="dropdown-item" href="espace3d-product.html">eSpace3D App</a></li>
+                                <li><a class="dropdown-item" href="collaboration3d-product.html">Collaboration3D</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border: none; background: none;">
+                                Pricing
+                            </button>
+                            <ul class="dropdown-menu mb-2" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="estore3d-pricing.html">eStore3D</a></li>
+                                <li><a class="dropdown-item" href="espace3d-pricing.html">eSpace3D App</a></li>
+                                <li><a class="dropdown-item" href="collaboration3d-pricing.html">Collaboration3D</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border: none; background: none;">
+                                Company
+                            </button>
+                            <ul class="dropdown-menu mb-2" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="index.html#more" onclick="toggle4()">Patent</a></li>
+                                <li><a class="dropdown-item" href="index.html#more" onclick="toggle6()">Team</a></li>
+                                <li><a class="dropdown-item" href="index.html#more" onclick="toggle5()">Contact</a></li>
+                            </ul>
+                        </li>
+                        <button class="estore-btn ms-lg-2" type="button"
+                            onclick="window.open('espace3d-app.html')">eSpace3D App</button>
+                        <button class="estore-btn mt-2 mt-lg-0 ms-lg-2" type="button"
+                            onclick="window.open('http://viscommerce.com/estore3d/')">eStore3D</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+        <!--FIRST CONTAINER-->
+        <div class="container-fluid" id="first">
+
+            <h6 style="text-align: center; font-size: 30px;">Ride the 3D Commerce Revolution</h6><br>
+
+            <div class="row">
+
+                <div class="col-md-6" style="padding: 50px;">
+                    <h3 style="font-size: 15px;font-style: italic;">“Building visualization techniques driven by 3D is
+                        increasingly a vital element of creating the best possible experience for shoppers, as it
+                        provides an invaluable way to explore beautiful imagery with context and authenticity. As we
+                        continue to transform the way people shop for their homes, we believe that 3D will be ubiquitous
+                        in the coming years and that it is imperative to standardize 3D content so it can be exchanged
+                        effectively and experienced consistently.”</i></h3>
+                    <h3 style="font-size: 15px; text-align: right;font-style: italic;">Shrenik Sadalgi<br>Chair of the
+                        3D Commerce Working Group & Director of Next at Wayfair
+                </div>
+
+
+                <div class="col-md-6">
+                    <div class="viscom-video">
+                        
+                        <video id="vid1" class="video-js vjs-default-skin vjs-big-play-centered" controls width="560"
+                        poster="video/3DCommerce_Thumbnail.png"
+                            height="315" poster="video\3DCommerce_Thumbnail.png"
+                            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=BFrwkY7nu4c"}] }'
+                            style=" border:3px solid rgba(12, 3, 0, 0.925) ;">
+                        </video>
+                    </div>
+
+                    <div class="viscom-video2">
+                        <video id="vid2" class="video-js vjs-default-skin vjs-big-play-centered" controls width="300"
+                            height="175" poster="video/3DCommerce_Thumbnail.png"
+                            data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=BFrwkY7nu4c"}] }'
+                            style=" border:3px solid rgba(12, 3, 0, 0.925) ;">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      
+
+        <!--GROW REVENUE-->
+        <div class="row align-items-center" id="grow" style="margin-top: 60px; margin-bottom: 30px;">
+            <div class="col col-12 col-md-6 mb-4 mb-md-0">
+              <img class="d-block mx-auto" src="images\Benefits\WebP\1a_Grow_Revenue_result.webp" style="max-width:350px;">
+            </div>
+            
+            
+            <div class="col-1 p-3">
+                
+                <img src="images\Benefits\company\webp\houzz.webp" width="90%" style="margin-top: 35px;">
+                
+                <img src="images\Benefits\company\webp\shopify.webp" width="100%">
+                
+                <img src="images\Benefits\company\webp\wayfairnobg.webp" width="100%">
+            </div>
+
+            <div class="col-4 p-4">
+                
+            	<h4 style="padding: 20px;">Grow Revenue 100%</h4>
+                <p>
+                    11 x the ratio of visitors who view
+                    3D models who buy compared to those who don’t.
+                </p>
+                <p>
+                    Leveraging 3D and AR can increase conversion by up to 250%.
+                </p>
+                <p>
+                    We believe that 3D will be ubiquitous in the coming years.
+                </p>
+            </div>
+            </div>
+            
+          </div>
+          
+             
+          <hr>
+
+         <!--REDUCE REVENUE-->
+
+          <div class="row align-items-center" id="grow" style="margin-left: 150px; margin-top: 60px;margin-bottom: 30px;" >
+            <div class="col col-12 col-md-6 mb-4 mb-md-0">
+                <h4>Reduce Returns by 50%</h4>
+                <ul class="ben">
+                    <li>Online commerce has 24% returns.</li>
+                    <li>50% reduction in returns due to interactive 3D model.</li>
+                </ul>
+            </div>
+            <div class="col col-12 col-md-6 mb-4 mb-md-0 order-md-2">
+                <img class="d-block mx-auto" src="images\Benefits\WebP\Reduce_Returns_result.webp" style="max-width:500px; padding-top: 8px; padding-right: 200px;">
+             
+            </div>
+          </div>
+        </div>
+
+          <hr>
+          <!--HAPPY CUSTOMERS-->
+          <div class="row align-items-center" id="grow" style="margin-top: 60px; margin-bottom: 30px;">
+            <div class="col col-12 col-md-6 mb-4 mb-md-0">
+                <img src="images\Benefits\WebP\ThrilledCustomer.webp" alt="" style="max-width:300px; padding-top: 8px; margin-left:150px; ">
+            </div>
+            <div class="col col-12 col-md-6 order-2">
+                <div style="margin-left: 100px;">
+              <h4>Thrill Your Customers</h4>
+              <ul class="ben">
+                  <li>Zoom,Rotate</li>
+                  <li>Customise products such as sofa.</li>
+                  <li>Operate Lights</li>
+                  <li>Inscene and Standalone</li>
+                  <li>Dimensions</li>
+                  <li>Operate Cabinets</li>
+              </ul>
+            </div>
+            </div>
+            </div>
+
+            <hr>
+
+         
+         
+        
+
+ 
+       
+        <!--THIRD CONTAINER-->
+        <div class="row align-items-center" style="padding: 20px;" id="">
+            <div class="col col-12 col-md-6 order-2 order-md-1" style="padding-left: 180px;">
+                <h4>Digital Rights Management</h4>
+                <ul>
+                <li>Protect your assets with DRM. Patented by VisCommerce.</li>
+                </ul>
+            </div>
+            <div class="col col-12 col-md-6 mb-4 mb-md-0 order-md-2">
+                <img class="d-block mx-auto" src="images/eStore3d/drm.webp" style="max-width:300px; ">
+             
+            </div>
+          </div>
+
+        
+</div>
+
+        <!--FOURTH CONTAINER-->
+        <div class="container" id="fourth">
+            <div class="row">
+                <div class="col-md-6"
+                    style="background: linear-gradient(rgb(231, 95, 95), #fff); border: 8px solid white;border-radius: 35px;">
+                    <div style="padding: 20px;">
+                        <p>“If there’s one reason we have done better than of our 
+                            peers in the Internet space over the last six years, 
+                            it is because we have focused like a laser on customer 
+                            experience, and that really does matter, I think, in any 
+                            business. It certainly matters online, where word-of-mouth is
+                             so very, very powerful.”</p>
+                        <p style="text-align: right;">Jeff Bezos
+                            <br><span style="font-style: italic;">Founder and CEO,Amazon</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6"
+                    style="background: linear-gradient(rgb(231, 95, 95), #fff); border: 8px solid white; border-radius: 35px;">
+                    <div style="padding: 20px;">
+                        <p>“The future of retail and brand advertising is immersive. This effort 
+                            promises to create a global infrastructure for consumers to discover
+                             and explore products by interacting with them virtually before 
+                             purchasing, via real-time 3D graphics and virtual and augmented reality.
+                              Unity is excited to be part of this initiative to build the future of 
+                              commerce in 3D.”</p>
+                        <p style="text-align: right;">Tony Parisi
+                            <br><span style="font-style: italic;">Head of AR/VR Ad Innovation at Unity Technologies
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+
+        <footer>
+            <p class="copyright">Copyright ©️ 2021 VisCommerce. All rights reserved.</p>
+        </footer>
+
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var $owl = $('#carousel1');
+        $owl.children().each(function (index) {
+            $(this).attr('data-position', index);
+        });
+
+        $("#carousel1").owlCarousel({
+            loop: false,
+            center: true,
+            margin: 0,
+            responsiveClass: true,
+            nav: false,
+            dots: true,
+            autoplay: true,
+            rewind: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                680: {
+                    items: 2
+                },
+                1000: {
+                    items: 2
+                }
+            }
+        });
+
+        $(document).on('click', '.owl-item>div', function () {
+            var $speed = 1000;
+            $owl.trigger('to.owl.carousel', [$(this).data('position'), $speed]);
+        });
+    </script>
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
